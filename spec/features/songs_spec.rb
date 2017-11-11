@@ -9,7 +9,7 @@ describe "songs", type:  :feature do
     @song = @artist.songs.create!(title: "The Grid")
   end
 
-  describe "/songs/:id" do
+  describe "/songs/:id" do#relates to show.html.erb
 
     it "links to the artist" do
       visit song_path(@song)

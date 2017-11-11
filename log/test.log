@@ -23753,3 +23753,7 @@ Started GET "/songs/351" for 127.0.0.1 at 2017-11-11 04:05:07 +0000
 Processing by SongsController#show as HTML
   Parameters: {"id"=>"351"}
   [1m[36mSong Load (0.2ms)[0m  [1m[34mSELECT  "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT ?[0m  [["id", 351], ["LIMIT", 1]]
+  Rendering songs/show.html.erb within layouts/application
+  Rendered songs/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 185ms (Views: 179.4ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
