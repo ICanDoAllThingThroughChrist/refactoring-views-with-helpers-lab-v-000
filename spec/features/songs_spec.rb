@@ -26,7 +26,7 @@ describe "songs", type:  :feature do
 
   end
 
-  describe "/songs" do
+  describe "/songs" do #this means index.html.erb. see rake route
 
     it "links to the song" do
       visit songs_path
