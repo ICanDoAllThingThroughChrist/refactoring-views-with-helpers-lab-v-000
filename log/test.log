@@ -23827,3 +23827,4 @@ Processing by SongsController#show as HTML
   Rendering songs/show.html.erb within layouts/application
   Rendered songs/show.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
