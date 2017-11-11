@@ -37,6 +37,7 @@ describe "songs", type:  :feature do
       song = Song.create(title: "Mambo No. 5")
       visit songs_path
       expect(page).to have_link("Add Artist", href: edit_song_path(song))
+      #by <%= display_artist song %></li>
     end
 
   end
