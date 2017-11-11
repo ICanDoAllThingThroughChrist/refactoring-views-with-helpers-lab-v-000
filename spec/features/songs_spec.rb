@@ -18,9 +18,9 @@ describe "songs", type:  :feature do
 
     it "links to edit when no artist" do
       song = Song.create(title: "Policy of Truth")
-      binding.pry
+      #binding.pry
       visit song_path(song)#means show.html.erb
-      binding.pry
+      #binding.pry
       expect(page).to have_link("Add Artist", href: edit_song_path(song))
     end
 
